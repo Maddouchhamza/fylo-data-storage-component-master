@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;300;400;500;600;700&family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;500;600;700&family=Lexend+Deca:wght@100;200;300;400&family=Outfit:wght@100;300;400;600&family=Raleway:wght@300;400;500;600;700;800;900&family=Red+Hat+Display:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+body{
+    height: 100vh;
+    background-image: url(./images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+}
+
+main{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+}
+
+.logo-card{
+    background-color:  hsl(228, 56%, 26%);
+    height: 200px;
+    border-radius: 10px 100px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    padding-left: 2.5rem;
+}
+.logo-card>img{
+    width: fit-content;
+    margin-top: 1.5rem;
+}
+.options{
+    display: flex;
+    margin-bottom: 1.2rem;
+}
+.option{
+    background-color: hsl(229, 57%, 11%);
+    width: 46px;
+    height: 46px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13px;
+}
+
+section{
+    background-color:  hsl(228, 56%, 26%);
+    height: 130px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 15px;
+    color: hsl(243, 100%, 93%);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section span{
+    font-weight: 700;
+}
+.tube{
+    width: 80%;
+    height: 18px;
+    background-color: hsl(229, 57%, 11%);
+    margin-top: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.avcmnt{
+    width: 73%;
+    height: 14px;
+    background-image: linear-gradient(to right ,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 10px;
+    margin-left: 3px;
+}
+.point{
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 178px;
+}
+.index-tube{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.GB-left{
+    width: 170px;
+    height: 67px;
+    background-color: white;
+    color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    position: absolute;
+    bottom: 140px;
+}
+.left{
+    color: hsl(229, 7%, 55%);
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.attribution{ 
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    margin-top:150px;
+}
+.attribution a{
+    color: hsl(6, 100%, 80%); 
+}
+
+
