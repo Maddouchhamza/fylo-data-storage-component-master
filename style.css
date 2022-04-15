@@ -76,7 +76,7 @@ section span{
     position: relative;
 }
 .avcmnt{
-    width: 73%;
+    width: 189px;
     height: 14px;
     background-image: linear-gradient(to right ,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
     border-radius: 10px;
