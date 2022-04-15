@@ -12,7 +12,6 @@ body{
 }
 
 main{
-    width: 330px;
     display: flex;
     flex-direction: column;
     margin-top: 110px;
@@ -21,21 +20,24 @@ main{
 
 .logo-card{
     background-color:  hsl(228, 56%, 26%);
+    width: 330px;
     height: 200px;
     border-radius: 10px 100px 10px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     justify-content: space-around;
-    padding-left: 2.5rem;
 }
 .logo-card>img{
     width: fit-content;
     margin-top: 1.5rem;
+    margin-left: 2.5rem;
+
 }
 .options{
     display: flex;
     margin-bottom: 1.2rem;
+    margin-left: 2.5rem;
 }
 .option{
     background-color: hsl(229, 57%, 11%);
@@ -51,6 +53,7 @@ main{
 section{
     background-color:  hsl(228, 56%, 26%);
     height: 130px;
+    width: 330px;
     border-radius: 10px 10px 10px 10px;
     margin-top: 15px;
     color: hsl(243, 100%, 93%);
@@ -117,7 +120,7 @@ section span{
 }
 .left{
     color: hsl(229, 7%, 55%);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 12px;
     margin-left: 10px;
 }
@@ -132,4 +135,87 @@ section span{
     color: hsl(6, 100%, 80%); 
 }
 
+@media screen and (min-width:1024px){
+    body{
+        background-image: url(./images/bg-desktop.png);
+        background-size: 1440px;
+        background-position: 0px 350px;
+        background-color:  hsl(229, 57%, 11%);
+        align-items: center;
+    }
+    main{
+        width: max-content;
+        padding-top: 250px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+    section{
+        margin-left: 30px;
+        width: 550px;
+        height: 150px;
+        margin-top: 0px;
+        text-align: start;
+        padding-top: 0rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .tube{
+        width: 470px;
+        height: 18px;
+        background-color: hsl(229, 57%, 11%);
+        margin-top: 1rem;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-left: 2.3rem;
 
+    }
+    .avcmnt{
+        width: 359px;
+    }
+    .point{
+        left: 348px;
+    }
+    .index-tube{
+        width: 470px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8px;
+        font-weight: 700;
+        font-size: 13px;
+        margin-bottom: 0rem;
+        margin-left: 2.3rem;
+        
+    }
+    .txt{
+        margin-left: 2.3rem;
+    }
+
+    .GB-left{
+        border-radius: 10px 10px 0px 10px;
+        position: absolute;
+        bottom: 60px;
+        right: 215px;
+        position: relative;
+    }
+    .GB-left::before{
+        left: 119px;
+        position: absolute;
+        content:"";
+        width: 1px;
+        border-style: solid;
+        border-width: 0px 50px 50px 0px;
+        border-color: white white transparent transparent;
+        bottom: -20px;
+    }
+    .attribution{ 
+        margin-top:275px;
+        font-size: 14px;
+    }  
+}
