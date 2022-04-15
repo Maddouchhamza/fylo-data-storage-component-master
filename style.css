@@ -12,7 +12,7 @@ body{
 }
 
 main{
-    width: 90%;
+    width: 330px;
     display: flex;
     flex-direction: column;
     margin-top: 110px;
@@ -66,7 +66,7 @@ section span{
     font-weight: 700;
 }
 .tube{
-    width: 80%;
+    width: 270px;
     height: 18px;
     background-color: hsl(229, 57%, 11%);
     margin-top: 1rem;
@@ -91,7 +91,7 @@ section span{
     left: 178px;
 }
 .index-tube{
-    width: 80%;
+    width: 270px;
     display: flex;
     justify-content: space-between;
     margin-top: 7px;
